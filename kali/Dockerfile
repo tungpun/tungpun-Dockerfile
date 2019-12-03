@@ -24,4 +24,9 @@ WORKDIR /root
 ENV HOME=/root \
     SHELL=/bin/bash
 
+EXPOSE 80
+EXPOSE 8080
+EXPOSE 4444
+
 CMD ["/bin/bash"]
+
