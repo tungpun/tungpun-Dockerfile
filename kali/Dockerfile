@@ -23,6 +23,5 @@ RUN pip install setuptools wheel
 WORKDIR /root
 ENV HOME=/root \
     SHELL=/bin/bash
-ENTRYPOINT ["/startup.sh"]
 
 CMD ["/bin/bash"]
